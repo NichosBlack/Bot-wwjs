@@ -1,0 +1,20 @@
+{
+  "name": "typebot-wwjs",
+  "author": "Pack Typebot",
+  "version": "1.0.0",
+  "description": "Este bot utiliza a biblioteca Whatsapp-Web.js",
+  "main": "bot.js",
+  "dependencies": {
+    "axios": "latest",
+    "dotenv": "latest",
+    "express": "^4.18.2",
+    "puppeteer": "^21.6.0",
+    "qrcode-terminal": "latest",
+    "socket.io": "^4.7.2",
+    "whatsapp-web.js": "^1.23.1-alpha.0"
+  },
+  "scripts": {
+    "install-deps": "sudo apt install -y gconf-service libgbm-dev libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget",
+    "start": "node bot.js"
+  }
+}
